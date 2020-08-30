@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_gradient"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="40sp"
+              android:text="Ride Name:"
+              android:textColor="#141b60"
+              android:textStyle="bold"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="50dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginLeft="10dp"
+              android:id="@+id/title"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ride"
+            android:layout_marginTop="153dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Name of your car,bike,etc"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="256dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Proceed"
+            android:textStyle="italic"
+            android:background="@drawable/bg_button"
+            android:id="@+id/proceed"
+    />
+
+
+
+
+</RelativeLayout>
